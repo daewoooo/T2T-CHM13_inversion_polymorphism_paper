@@ -1,0 +1,10 @@
+## Set of R scripts to reproduce previously unpublished analysis from a study 'Inversion polymorphism in a complete human genome assembly'.
+
+pericentINV_enrichment.R:		Rscript  to evaluate enrichment of balanced inversion awithin pericentromeric regions.
+detectMinorAllelesAndMisorients.R:	Rscript to detect minor inverted alleles in both GRCh38 and T2T-CHM13 references as well as to evaluate misorientations in GRCh38.
+roiXq28.R:				Rscript to evaluate structure of the Xq28 region and cluster haplotypes based on their structural similarity.
+roi15q25.2.R:				Rscript to evaluate structure of the 15q25.2 region and cluster haplotypes based on their structural similarity.
+invBPs_mapping_roi15q25.2.R:		Rscript to refine inversion breakpoint at 15q25.2
+
+## NOTE to update path in each R script to reflect the local directory where the data were downloaded.
+## e.g. '/<local_directory>/Porubsky_etal_2023/data/chm13.draft_v1.1.cenAnnotation.bed'
